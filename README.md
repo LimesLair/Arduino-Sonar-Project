@@ -3,6 +3,7 @@ Here is where you will find all the code for my Arduino Sonar Project, just uplo
 Look in the comments in the code for additional info
 
 I used the pyglet library for the visuals and the serial library for serial communications
+For arduino, I used the Servo and Ultrasonic libraries
 
 Also if you have any constructive criticism to give, please reach out! Im kind of new to working with pyglet and python in general.
 Feedback on the code's commenting is also greatly appreciated!
