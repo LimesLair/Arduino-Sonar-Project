@@ -53,7 +53,7 @@ void setup() {
 
 void loop() {
   updateServo(); //updates the servo's position by one degree and waits for 75 miliseconds
-  delay(75);
+  delay(150);
   Serial.print(readSonic()); //print the distance of pinged target to serial port
   Serial.print(" ");
   Serial.println(angle);
