@@ -56,7 +56,7 @@ void loop() {
   delay(75);
   Serial.print(readSonic()); //print the distance of pinged target to serial port
   Serial.print(" ");
-  Serial.println(angle)
+  Serial.println(angle);
   //The code below is very specific to my servo, I was encountering an odd problem where the servo traveled in the wrong direction, if this is happening for you, uncomment the line below and comment out the one above
   //Serial.println(abs(angle-180));
 }
